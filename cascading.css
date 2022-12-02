@@ -22,6 +22,7 @@ div {
     background-color: #141313;
     width: 350px;
     position: relative;
+    margin-bottom: 10PX;
 
 
 }
@@ -33,8 +34,9 @@ div {
 .firsttagline {
     font-size: 12px;
     color: #FFFFFF;
+
     text-align: center;
-    margin-top: 0px;
+    margin-top: 1px;
 
 
 }
@@ -48,22 +50,22 @@ div {
     border-radius: 15px;
     background-color: black;
     width: fit-content;
-    padding: 8px;
+    padding: 5px 18px 5px 18px;
 
 }
 
 .strip {
 
     background-color: #FDBD10;
-    width: 350px;
-    margin-bottom: 10px;
+
+    margin: 27px 0px 13px 0px;
 
 
 
 }
 
 .firstimage {
-    margin-top: 55px;
+    margin-top: 35px;
     margin-left: 134px;
     border: 0px;
 }
@@ -71,6 +73,7 @@ div {
 .back {
 
     display: flex;
+    height: 200px;
 
     justify-content: center;
 }
@@ -78,9 +81,7 @@ div {
 .vl {
 
     background-color: #FDBD10;
-    border-left: 6px solid;
-    height: 100%;
-    width: 60px;
+    width: 74px;
     text-align: center;
     padding-bottom: 7px;
 
@@ -90,6 +91,11 @@ div {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 19px;
+    margin-top: 19px;
+    padding: 0px;
+
+    margin-right: 19px;
     align-items: center;
     text-align: center;
 }
@@ -97,18 +103,21 @@ div {
 .backside {
     font-size: 12px;
     color: #FFFFFF;
-
-    /* margin: 0px 20px; */
-
+    width: 151px;
 }
 
 .yourname {
-    margin-top: 25px;
-    font-size: 8px;
+    margin-top: 35px;
+
+
+    font-size: 12px;
     color: whitesmoke;
     text-align: left;
 
-    margin-left: 25px;
+}
+
+.you {
+    margin-left: 19px;
 }
 
 .icon {
@@ -119,19 +128,24 @@ div {
 
 .ui {
     color: gainsboro;
-    font-size: 7.09px;
-    margin-bottom: 30px;
+    font-size: 6.07px;
+    margin-bottom: 55px;
+    margin-left: 19px;
 }
 
 .info {
-    font-size: small;
-    font-weight: 600;
+    margin: 14px;
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+    font-weight: 700;
     display: flex;
     justify-content: space-between;
 }
 
 p {
-    font-weight: 900;
+    margin: 0px;
 }
 
 .center {
@@ -147,33 +161,34 @@ p {
 
 
     padding-top: 35px;
-    border-radius: 14px;
+    border-radius: 100px;
     width: 100%;
 }
 
 span {
     color: #FDBD10;
+    font-weight: bolder;
+
 }
 
 /* ANIMATION */
 
 .card {
-    /* transform: rotateY(180deg);
-    */
+
     transition: 0.9s;
-    height: 206px;
+    height: 200px;
 
     perspective: 1000px;
     transform-style: preserve-3d;
 
 }
 
+
 .card:hover {
-    /* transition: 0.9s; */
 
 
-    transform:
-        rotateY(180deg);
+
+    transform: rotateY(180deg);
     cursor: pointer;
 
 
